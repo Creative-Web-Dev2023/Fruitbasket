@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './fruitlist.component.scss'
 })
 export class FruitlistComponent {
+
+  howItWorks ="not bad";
    fruitlist = [
     {
       name: "Apfel",
