@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './fruitlist.component.scss'
 })
 export class FruitlistComponent {
-
+ fontColor ="green";
    fruitlist = [
     {
       name: "Apfel",
