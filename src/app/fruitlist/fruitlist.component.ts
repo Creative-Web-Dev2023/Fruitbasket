@@ -11,9 +11,7 @@ import { SinglefruitComponent } from './singlefruit/singlefruit.component';
 })
 export class FruitlistComponent {
 
-
    fruitlist = [
-   
     {
       name: "Banane",
       img:"banana.png",
@@ -55,4 +53,9 @@ export class FruitlistComponent {
       reviews:[{name: "Kevin W.", text: "Ganz gut in der Regel!"},{name: "Oliver J.", text: "Absoluter Favorit beim Frühstück"}],
     },
   ]
+
+  numLog(index:number){
+    console.log("Index: " + index);
+    return index;
+  }
 }
